@@ -13,6 +13,9 @@
 		2A32F0C726387A6800E0E590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A32F0C626387A6800E0E590 /* Preview Assets.xcassets */; };
 		2A32F0D226387A6800E0E590 /* COSC603ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32F0D126387A6800E0E590 /* COSC603ProjectTests.swift */; };
 		2A32F0DD26387A6800E0E590 /* COSC603ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32F0DC26387A6800E0E590 /* COSC603ProjectUITests.swift */; };
+		2A32F0EE2638933700E0E590 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32F0ED2638933700E0E590 /* Operations.swift */; };
+		2A7A674B264628D300347049 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32F0ED2638933700E0E590 /* Operations.swift */; };
+		2A7A674D264628F100347049 /* OperationsLogicCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A674C264628F100347049 /* OperationsLogicCoverageTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		2A32F0D826387A6800E0E590 /* COSC603ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSC603ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A32F0DC26387A6800E0E590 /* COSC603ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSC603ProjectUITests.swift; sourceTree = "<group>"; };
 		2A32F0DE26387A6800E0E590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A32F0ED2638933700E0E590 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		2A7A674C264628F100347049 /* OperationsLogicCoverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsLogicCoverageTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +105,7 @@
 				2A32F0C326387A6800E0E590 /* Assets.xcassets */,
 				2A32F0C826387A6800E0E590 /* Info.plist */,
 				2A32F0C526387A6800E0E590 /* Preview Content */,
+				2A32F0ED2638933700E0E590 /* Operations.swift */,
 			);
 			path = COSC603Project;
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 			children = (
 				2A32F0D126387A6800E0E590 /* COSC603ProjectTests.swift */,
 				2A32F0D326387A6800E0E590 /* Info.plist */,
+				2A7A674C264628F100347049 /* OperationsLogicCoverageTests.swift */,
 			);
 			path = COSC603ProjectTests;
 			sourceTree = "<group>";
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A32F0EE2638933700E0E590 /* Operations.swift in Sources */,
 				2A32F0C226387A6700E0E590 /* ContentView.swift in Sources */,
 				2A32F0C026387A6700E0E590 /* COSC603ProjectApp.swift in Sources */,
 			);
@@ -268,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7A674D264628F100347049 /* OperationsLogicCoverageTests.swift in Sources */,
 				2A32F0D226387A6800E0E590 /* COSC603ProjectTests.swift in Sources */,
+				2A7A674B264628D300347049 /* Operations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
