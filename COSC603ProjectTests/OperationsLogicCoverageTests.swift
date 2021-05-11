@@ -122,4 +122,24 @@ class OperationsLogicCoverageTests: XCTestCase {
     func testSelectionSortOrganize() throws {
         XCTAssertTrue(operations.selectionSort([1,2]) == [1,2])
     }
+    
+    func testIsPrimeLessThanTwo() throws {
+        XCTAssertFalse(operations.isPrime(num: 1))
+    }
+    
+    func testIsNotPrime() throws {
+        XCTAssertFalse(operations.isPrime(num: 4))
+    }
+    
+    func testIsPrime() throws {
+        XCTAssertTrue(operations.isPrime(num: 5))
+    }
+    
+    func testNotRemovePrime() throws {
+        XCTAssertTrue(operations.removePrime([1,4]) == [1,4])
+    }
+    
+    func testRemovePrime() throws {
+        XCTAssertTrue(operations.removePrime([1,3,4,5]) == [1,4])
+    }
 }
